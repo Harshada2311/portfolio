@@ -5,7 +5,12 @@
   * The library should be uploaded to: vendor/php-email-form/php-email-form.php
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
-
+  
+  // Allow requests from any origin (for development only)
+  header("Access-Control-Allow-Origin: *");
+  header("Access-Control-Allow-Headers: Content-Type, X-Requested-With");
+  header("Access-Control-Allow-Methods: POST");
+  
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'harshdashinde6@gmail.com';
 

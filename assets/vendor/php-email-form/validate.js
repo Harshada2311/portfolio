@@ -4,6 +4,9 @@
 * Author: BootstrapMade.com
 */
 (function () {
+  let action = thisForm.getAttribute('action');
+console.log("Form action is:", action); // Add this line
+
   "use strict";
 
   let forms = document.querySelectorAll('.php-email-form');
